@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> 【U字】短篇合集 </category>
           
       </categories>
       
@@ -533,7 +533,7 @@
       <link href="/2025/07/25/%E5%BC%80%E5%8F%91%E6%89%8B%E8%AE%B0/"/>
       <url>/2025/07/25/%E5%BC%80%E5%8F%91%E6%89%8B%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[<p>250725</p><p>突发奇想能不能搭一个自己的博客。</p><p>其实也不是第一次有这个想法了，以前也想过好几次，只是在网上大致搜了搜，又要买域名又要买服务器，花钱且麻烦。</p><p>最近上课摸鱼，实在想干点什么，于是乎这个想法又浮了上来。</p><p>按以前大概就在拖延拖延中不了了之了。</p><p>但这几天消磨了太多时间在无意义的事情上，想做出改变。</p><p>硬核狠人的共同特征是超强执行力。</p><p>所以再次想到这件事，马上爬起来找资料。</p><p>其实本人对编程什么的一窍不通。</p><p>最开始找的是一个用Hexo+Gitee搭的教程。</p><p>做到一半看到评论区说Gitee已经不能用了。</p><p>只好重新找，换Github。</p><p>自以为前面做好了，只要把搭仓库的部分换成Github。就跳过了前面的部分。</p><p>做来做去还是不行，原来前面也有一些不一样的地方。</p><p>反复做反复倒查，弄了半天，因为两个教程不一样，有些前面的步骤其实落下了很多。</p><p>还不如完全重新做。</p><p>配置ssh key这步，这里不要加速。</p><p>做到了本地部署，但上线不了。</p><p>hexo d之后只显示validating config，后面都没有，看评论区也解决不了。</p><p>明天继续。</p><p>bash的ctrl+c是结束进程！！千万不要顺手以为是copy！！！！！</p><p>250726</p><p>重新下了nodejs。</p><p>用Deepseek帮忙看哪里出错了，很好用。</p><p>千奇百怪的错误，不知道类似的埋藏在哪里的回帖或评论或弹幕。</p><p>hexo d还是不行。</p><p>倒腾两个小时，最后发现了，用记事本编辑_config.yml之后我直接关闭了窗口，但是这其实并没有关闭文件，根本没保存……</p><p>《你有没有被sb的BUG困扰过很久》</p><p>遇到了新的问题，加速的话显示ssh错误，不加速的话显示连不上Github。</p><p>把HTTP协议换成SSH协议也不对。</p><p>还是听Deepseek的，配置Git使用系统证书存储（推荐）</p><p>在较新版本的Git中，可以设置Git使用操作系统的证书存储：</p><p>git config –global http.sslBackend schannel</p><p>（Windows系统）</p><p>虽然原理一点不知道，但是真的解决了耶！</p><p>然后电脑就没电了（草）</p><p>中午充上电，终于成功上线了！下午搞美化w</p><p>美化的第一个问题是：用anzhiyu还是butterfly。</p><p>纠结了一会儿选了anzhiyu，指南看得不是很明白，捣鼓了半天收效甚微。</p><p>而且anzhiyu的教程视频好少。也不知道是不是自己没找到。</p><p>看不到自己想要的效果，正反馈不足。</p><p>还是用butterfly吧。</p><p>找到了很全的文字教程和视频。</p><p>下午成功安装了butterfly主题。</p><p>晚上想做一下目录栏、头像和背景图。</p><p>按照教程做，慢慢看懂了一点点。</p><p>也悟了一点当时看anzhiyu没看明白的地方。</p><p>_config.butterfly.yml改了，还学了相对路径的写法。可页面没有相应的变化。</p><p>Deepseek：没有正确启用配置覆盖</p><p>检查Hexo根目录的_config.yml中是否指定了Butterfly的配置文件：</p><p>theme: butterfly</p><p>butterfly: _config.butterfly.yml   # 这一行很重要，告诉Hexo使用这个文件作为主题的配置覆盖</p><p>做出目录栏和头像。</p><p>修改背景图为海上钢琴师。</p><p>添加打字滚动副标题。</p><p>250727</p><p>上午完成了一些基础设置。</p><p>包括文章页基础配置，尤其是分页按钮；页脚设置；简繁转换；侧边栏部分设置。删掉了不想要的一些部分。</p><p>想起做个人博客的引子之一，22年写文查东西的时候发现了一个叫“昨日当年”的网站，好像是谁的个人博客，零零碎碎地记录着自己的东西。</p><p>现在再找，那个网站已经没有了。</p><p>中午继续。</p><p>搜索栏已解决：把主题配置文件中 search 的 use 配置为 local_search。</p><p>网站背景图已解决：可能是选择的图片网站有防盗设置，所以不能引用。</p><p>标准写法应为background: “url(https:&#x2F;&#x2F;…)”，实操发现不需要，可能是浏览器容错，直接写图片 URL 会被自动转换为 url(…) 格式。</p><p>下午。</p><p>文章头图设置成功。</p><p>侧边栏优化：保留个人卡片，公告栏换行使用《br》，归档，分类。</p><p>首页卡片布局为6：瀑布流布局—封面在上，信息在下。</p><p>禁止转载：在share的use：留空。</p><p>添加文章编辑按钮：开启post_edit并填写url: github.com&#x2F;user-name&#x2F;repo-name&#x2F;edit&#x2F;branch-name&#x2F;subdirectory-name&#x2F;。</p><p>添加页脚文字。</p><p>准备做的魔改：一图流；分类磁贴和文章置顶轮播图；自定义字体；导航栏；电子钟等。</p><p>一图流制作完毕，代码没遇到什么困难，主要的困难是选图。</p><p>今天就先到这里。</p><p>250728</p>]]></content>
+        <content type="html"><![CDATA[<p>250725</p><p>突发奇想能不能搭一个自己的博客。</p><p>其实也不是第一次有这个想法了，以前也想过好几次，只是在网上大致搜了搜，又要买域名又要买服务器，花钱且麻烦。</p><p>最近上课摸鱼，实在想干点什么，于是乎这个想法又浮了上来。</p><p>按以前大概就在拖延拖延中不了了之了。</p><p>但这几天消磨了太多时间在无意义的事情上，想做出改变。</p><p>硬核狠人的共同特征是超强执行力。</p><p>所以再次想到这件事，马上爬起来找资料。</p><p>其实本人对编程什么的一窍不通。</p><p>最开始找的是一个用Hexo+Gitee搭的教程。</p><p>做到一半看到评论区说Gitee已经不能用了。</p><p>只好重新找，换Github。</p><p>自以为前面做好了，只要把搭仓库的部分换成Github。就跳过了前面的部分。</p><p>做来做去还是不行，原来前面也有一些不一样的地方。</p><p>反复做反复倒查，弄了半天，因为两个教程不一样，有些前面的步骤其实落下了很多。</p><p>还不如完全重新做。</p><p>配置ssh key这步，这里不要加速。</p><p>做到了本地部署，但上线不了。</p><p>hexo d之后只显示validating config，后面都没有，看评论区也解决不了。</p><p>明天继续。</p><p>bash的ctrl+c是结束进程！！千万不要顺手以为是copy！！！！！</p><p>250726</p><p>重新下了nodejs。</p><p>用Deepseek帮忙看哪里出错了，很好用。</p><p>千奇百怪的错误，不知道类似的埋藏在哪里的回帖或评论或弹幕。</p><p>hexo d还是不行。</p><p>倒腾两个小时，最后发现了，用记事本编辑_config.yml之后我直接关闭了窗口，但是这其实并没有关闭文件，根本没保存……</p><p>《你有没有被sb的BUG困扰过很久》</p><p>遇到了新的问题，加速的话显示ssh错误，不加速的话显示连不上Github。</p><p>把HTTP协议换成SSH协议也不对。</p><p>还是听Deepseek的，配置Git使用系统证书存储（推荐）</p><p>在较新版本的Git中，可以设置Git使用操作系统的证书存储：</p><p>git config –global http.sslBackend schannel</p><p>（Windows系统）</p><p>虽然原理一点不知道，但是真的解决了耶！</p><p>然后电脑就没电了（草）</p><p>中午充上电，终于成功上线了！下午搞美化w</p><p>美化的第一个问题是：用anzhiyu还是butterfly。</p><p>纠结了一会儿选了anzhiyu，指南看得不是很明白，捣鼓了半天收效甚微。</p><p>而且anzhiyu的教程视频好少。也不知道是不是自己没找到。</p><p>看不到自己想要的效果，正反馈不足。</p><p>还是用butterfly吧。</p><p>找到了很全的文字教程和视频。</p><p>下午成功安装了butterfly主题。</p><p>晚上想做一下目录栏、头像和背景图。</p><p>按照教程做，慢慢看懂了一点点。</p><p>也悟了一点当时看anzhiyu没看明白的地方。</p><p>_config.butterfly.yml改了，还学了相对路径的写法。可页面没有相应的变化。</p><p>Deepseek：没有正确启用配置覆盖</p><p>检查Hexo根目录的_config.yml中是否指定了Butterfly的配置文件：</p><p>theme: butterfly</p><p>butterfly: _config.butterfly.yml   # 这一行很重要，告诉Hexo使用这个文件作为主题的配置覆盖</p><p>做出目录栏和头像。</p><p>修改背景图为海上钢琴师。</p><p>添加打字滚动副标题。</p><p>250727</p><p>上午完成了一些基础设置。</p><p>包括文章页基础配置，尤其是分页按钮；页脚设置；简繁转换；侧边栏部分设置。删掉了不想要的一些部分。</p><p>想起做个人博客的引子之一，22年写文查东西的时候发现了一个叫“昨日当年”的网站，好像是谁的个人博客，零零碎碎地记录着自己的东西。</p><p>现在再找，那个网站已经没有了。</p><p>中午搜索栏已解决：把主题配置文件中 search 的 use 配置为 local_search。</p><p>网站背景图已解决：可能是选择的图片网站有防盗设置，所以不能引用。</p><p>标准写法应为background: “url(https:&#x2F;&#x2F;…)”，实操发现不需要，可能是浏览器容错，直接写图片 URL 会被自动转换为 url(…) 格式。</p><p>下午文章头图设置成功。</p><p>侧边栏优化：保留个人卡片，公告栏换行使用《br》，归档，分类。</p><p>首页卡片布局为6：瀑布流布局—封面在上，信息在下。</p><p>禁止转载：在share的use：留空。</p><p>添加文章编辑按钮：开启post_edit并填写url: github.com&#x2F;user-name&#x2F;repo-name&#x2F;edit&#x2F;branch-name&#x2F;subdirectory-name&#x2F;。</p><p>添加页脚文字。</p><p>一图流制作完毕，代码没遇到什么困难，主要的困难是选图。</p><p>250728</p><p>添加了很多从前的文章，试验tag和categories。</p><p>已添加分类磁贴，导航栏居中。</p><p>分类磁贴图标未显示；</p><p>准备自定义字体等。</p>]]></content>
       
       
       
@@ -599,31 +599,20 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>归档</title>
       <link href="/archives/index.html"/>
       <url>/archives/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -636,7 +625,18 @@
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}]]></content>
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -75px;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -654,9 +654,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>友链</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
