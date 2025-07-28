@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 【U字】短篇合集 </category>
+          <category> 短篇 </category>
           
       </categories>
       
@@ -38,7 +38,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -63,7 +63,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -88,7 +88,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -113,7 +113,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -138,7 +138,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -163,7 +163,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -188,7 +188,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -213,7 +213,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -238,7 +238,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -263,7 +263,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -288,7 +288,7 @@
       
       <categories>
           
-          <category> 【U字】想拥抱的只有你 </category>
+          <category> Unit 2 </category>
           
       </categories>
       
@@ -313,7 +313,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> Unit 1 </category>
           
       </categories>
       
@@ -338,7 +338,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> Unit 1 </category>
           
       </categories>
       
@@ -363,7 +363,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> Unit 1 </category>
           
       </categories>
       
@@ -388,7 +388,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> Unit 1 </category>
           
       </categories>
       
@@ -413,7 +413,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> Unit 1 </category>
           
       </categories>
       
@@ -438,7 +438,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> Unit 1 </category>
           
       </categories>
       
@@ -463,7 +463,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> Unit 1 </category>
           
       </categories>
       
@@ -488,7 +488,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> Unit 1 </category>
           
       </categories>
       
@@ -513,7 +513,7 @@
       
       <categories>
           
-          <category> 【U字】你的名字 </category>
+          <category> Unit 1 </category>
           
       </categories>
       
@@ -556,6 +556,12 @@
       
       
       
+        <tags>
+            
+            <tag> 开发手记 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -588,17 +594,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>归档</title>
       <link href="/archives/index.html"/>
       <url>/archives/index.html</url>
@@ -621,20 +616,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -75px;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -654,9 +638,31 @@
     
     
     <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -75px;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>友链</title>
       <link href="/links/index.html"/>
       <url>/links/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
