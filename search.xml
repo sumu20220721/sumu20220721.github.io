@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>雨天、被窝与热汤</title>
+      <title>雨天</title>
       <link href="/2025/08/24/%5B%E6%AC%B2%E4%B8%8E%E7%BB%93%E8%A8%80%5D%E9%9B%A8%E5%A4%A9/"/>
       <url>/2025/08/24/%5B%E6%AC%B2%E4%B8%8E%E7%BB%93%E8%A8%80%5D%E9%9B%A8%E5%A4%A9/</url>
       
@@ -670,6 +670,17 @@
     
     
     <entry>
+      <title>归档</title>
+      <link href="/archives/index.html"/>
+      <url>/archives/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>照片</title>
       <link href="/Gallery/index.html"/>
       <url>/Gallery/index.html</url>
@@ -684,17 +695,6 @@
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>归档</title>
-      <link href="/archives/index.html"/>
-      <url>/archives/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -747,9 +747,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -758,9 +758,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
