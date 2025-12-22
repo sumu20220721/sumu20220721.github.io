@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>【U字】东京故事-3</title>
+      <link href="/2025/12/21/%E3%80%90U%E5%AD%97%E3%80%91%E4%B8%9C%E4%BA%AC%E6%95%85%E4%BA%8B-3/"/>
+      <url>/2025/12/21/%E3%80%90U%E5%AD%97%E3%80%91%E4%B8%9C%E4%BA%AC%E6%95%85%E4%BA%8B-3/</url>
+      
+        <content type="html"><![CDATA[<p>福田君很难懂。</p><p>如果去问当年的同学，大家几乎都会这样说。</p><p>可能只有益子君比较明白他在想什么吧。</p><p>就连老师都会找到他。</p><p>“最近福田同学似乎压力很大的样子，在为什么事担忧着。”</p><p>老师拍着他的肩。</p><p>“作为好朋友，请你多多关注他的状况，可以吗？”</p><p>益子也理所当然地确信自己是和福田交流最多的那一个。</p><p>不只是同学，更是朋友，是搭档。</p><p>那是他们第一次上电视，段子节目收录的前几天，益子知道福田其实紧张得不得了，虽然在别人面前不怎么表现，私下却拼命地背段子记台词，拉着他练习。</p><p>“如果这个地方忘词没接上的话就完了。”</p><p>“哎呀，没关系的，就算失误，我使出益子锤可以蒙混过去的！”</p><p>“会死掉的哦，冷场的话。”</p><p>去会场的车上，福田一直拿着段子本，纸张的角都被揉皱了。</p><p>益子则翻着从便利店买的杂志，上面有一页记载了缓解紧张的十条办法。</p><p>“深呼吸啦，放松身体，转移注意力，诶，这一条，找信任的人说说话，或者拥抱五分钟都可以有效减轻心理压力，形成……一种不认识的物质。你想来一个拥抱吗？”</p><p>他这话七分是玩笑，因为杂志上还有一条“适当发泄情绪”，制造个借口让福田骂自己一下也许也有效。</p><p>可是准备好的被骂并没有等来，福田只是揪住了自己的袖子。</p><p>“喂……”</p><p>他拉过福田的手，轻轻揽住对方。</p><p>“我们不是在一起吗。”</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> U字工事 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【U字】东京故事-2</title>
       <link href="/2025/12/21/%E3%80%90U%E5%AD%97%E3%80%91%E4%B8%9C%E4%BA%AC%E6%95%85%E4%BA%8B-2/"/>
       <url>/2025/12/21/%E3%80%90U%E5%AD%97%E3%80%91%E4%B8%9C%E4%BA%AC%E6%95%85%E4%BA%8B-2/</url>
@@ -732,9 +751,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>归档</title>
+      <link href="/archives/index.html"/>
+      <url>/archives/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -754,9 +773,9 @@
     
     
     <entry>
-      <title>归档</title>
-      <link href="/archives/index.html"/>
-      <url>/archives/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -776,22 +795,22 @@
     
     
     <entry>
-      <title>影片</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -75px;}/* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme="dark"] .magnet_link_context:hover {  background: #95521F;  color: #f2f2f2;}/* 个人信息卡片背景图 */[data-theme="light"] #aside-content > .card-widget.card-info {  background-image: url(/img/back1.png);  background-repeat: no-repeat;  background-attachment: inherit;  background-size: 100%;}[data-theme="dark"] #aside-content > .card-widget.card-info {  background-image: url(/img/back2.png);  background-repeat: no-repeat;  background-attachment: inherit;  background-size: 100%;}]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
+      <title>影片</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -75px;}/* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme="dark"] .magnet_link_context:hover {  background: #95521F;  color: #f2f2f2;}/* 个人信息卡片背景图 */[data-theme="light"] #aside-content > .card-widget.card-info {  background-image: url(/img/back1.png);  background-repeat: no-repeat;  background-attachment: inherit;  background-size: 100%;}[data-theme="dark"] #aside-content > .card-widget.card-info {  background-image: url(/img/back2.png);  background-repeat: no-repeat;  background-attachment: inherit;  background-size: 100%;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
